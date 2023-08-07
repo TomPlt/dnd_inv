@@ -15,7 +15,6 @@ impl Sandbox for HelloWorld {
     }
 
     fn update(&mut self, _message: Self::Message) {
-        // This will stay empty
     }
 
     fn view(&self) -> iced::Element<'_, Self::Message> {
